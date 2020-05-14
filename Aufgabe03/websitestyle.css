@@ -20,7 +20,7 @@ h1{
     right: 0;
     top: 0;
     border-radius: 10px 10px 10px 10px;
-    z-index: 9999;
+    z-index: 999;
 }
 .navi1{
     border-right: solid 1px white;
