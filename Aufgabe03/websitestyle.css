@@ -1,15 +1,221 @@
-a{ font-size: medium;
-    background-color: rgb(172, 89, 57); 
-    color: rgb(245, 218, 182);
+body{
+    background-image: url("bg.png");
     font-family: Arial, Helvetica, sans-serif;
-    text-decoration: none
+    text-align: center;
+}
+h1{
+    font-size: 150px;
+    letter-spacing: -17px;
+    position: relative;
+    bottom: 410px;
+}
 
 
+.navi{
+    display: inline-block;
+    background-color: #000000;
+    padding: 5px 8px 5px 5px;
+    position: fixed;
+    right: 0;
+    top: 0;
+    border-radius: 10px 10px 10px 10px;
+    z-index: 9999;
+}
+.navi1{
+    border-right: solid 1px white;
+}
 
-    div{
-        background-color: rgb(80, 41, 26);
-        width: 50px;
-        padding: 25px 25px 25px 25px 
+.navi2{
+    border-right: solid 1px white;
+}
 
-    }
+a:link, a:visited {
+        text-decoration: none;
+        color: white;
+}
+ a:hover {
+    color: #ffc71e;
+ }
+
+ a.active{
+     color: #ffc71e;
+     text-decoration: underline;
+ }
+
+
+div a.activePage1{
+     color: #ffc71e;
+     font-weight: bolder;
+}
+
+div a.activePage2{
+    color: #ffc71e;
+    font-weight: bolder;
+}
+
+.social{
+    position: absolute;
+    top: 270px;
+    margin-left: 49.6%;
+    z-index: 9999;
+}
+
+.social:hover{
+    opacity: 0.5;
+}
+
+.lorem {
+    letter-spacing: -4px;
+    margin: auto;
+    width: 15%;
+    border: 3px;
+    padding: 10px;
+    font-size: 23px;
+    text-align: left;
+    position: relative;
+    bottom: 570px;
+    left: 100px;
+    text-align:left;
+}
+
+.text{
+    margin: auto;
+    width: 15%;
+    border: 3px;
+    padding: 10px;
+    font-size: 10px;
+    text-align: left;
+    position: relative;
+    bottom: 625px;
+    left: 100px;
+    text-align:left;
+}
+
+.überschrift1{
+    color: #ffc71e;
+    font-size: 20px;
+    position: relative;
+    bottom: -20px;
+    right: 360px;
+    
+}
+
+.überschrift2{
+    color: #ffc71e;
+    font-size: 20px;
+    position: relative;
+    bottom: -20px;
+    margin-left: -732px;
+    
+}
+
+.überschrift3{
+    color: #ffc71e;
+    font-size: 20px;
+    position: relative;
+    bottom: -20px;
+    margin-left: -740px;
+    margin-right: -22px;
+    
+}
+
+.überschrift4{
+    color: #ffc71e;
+    font-size: 20px;
+    position: relative;
+    bottom: -20px;
+    margin-left: -678px;
+    margin-right: -50px;
+    
+}
+
+.überschrift5{
+    color: #ffc71e;
+    font-size: 20px;
+    position: relative;
+    bottom: -20px;
+    margin-left: -718px;
+    margin-right: -60px;
+    
+}
+
+
+.foto{
+    color: #ffc71e;
+    font-size: 20px;
+    position: relative;
+    bottom: 480px;
+    right: 306px;
+}
+
+.foto1 {
+    position: relative;
+    bottom: 470px;
+}
+
+.circle{
+    position: static;
+    display: block;
+    margin: -35px auto;
+    width: 700px;
+}
+
+.kontakt{
+    color: #ffc71e;
+    font-size: 20px;
+    position: relative;
+    bottom: 550px;
+    right: 300px;
+}
+
+.activePage1{
+    border-right: solid 1px white;
+}
+
+.Kontakt{
+    color: #ffc71e;
+    font-weight: bolder;
+    position: relative;
+    right: 385px;
+    margin-top: -500px;
+}
+
+.formular{
+    background: lightgrey;
+    font-size: 9pt;
+    color: white;
+    width: 200px;
+    padding: 5px 5px 5px 5px;
+    margin-left: 200px;
+    text-align: left;
+}
+
+.formular2{
+    background: lightgrey;
+    font-size: 9pt;
+    color: white;
+    width: 200px;
+    padding: 5px 5px 5px 5px;
+    margin-left: 200px;
+    text-align: left;
+}
+
+.Datenschutz{
+    font-size: 9pt;
+    color: lightgray;
+    position: relative;
+    left: -263px;
+}
+
+.absenden{
+    font-size: 9pt;
+    color: white;
+    background: lightgray;
+    width: 55px;
+    padding: 5px 5px 5px 5px;
+    margin-left: 200px;
+}
+
+.fotoich{
+    margin-top: -500px;
 }
