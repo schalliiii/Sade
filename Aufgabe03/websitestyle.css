@@ -2,7 +2,7 @@ body{
     background-image: url("bg.png");
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    background: #bd8e5b;
+    
 }
 h1{
     font-size: 150px;
@@ -91,6 +91,7 @@ div a.activePage2{
     left: 100px;
     text-align:left;
 }
+
 
 .überschrift1{
     color: #ffc71e;
