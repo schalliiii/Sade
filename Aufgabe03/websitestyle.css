@@ -23,11 +23,11 @@ h1{
     z-index: 999;
 }
 .navi1{
-    border-right: solid 1px white;
+    border-right: solid 1px rgb(219, 177, 59);
 }
 
 .navi2{
-    border-right: solid 1px white;
+    border-right: solid 1px rgb(219, 177, 59);
 }
 
 a:link, a:visited {
@@ -39,7 +39,7 @@ a:link, a:visited {
  }
 
  a.active{
-     color: #bd8e7c;
+     color: #ca530f;
      text-decoration: underline;
  }
 
@@ -50,7 +50,7 @@ div a.activePage1{
 }
 
 div a.activePage2{
-    color:#f8f8f8;
+    color:#bd8e5b;
     font-weight: bolder;
 }
 
@@ -94,7 +94,7 @@ div a.activePage2{
 
 
 .überschrift1{
-    color: #ffc71e;
+    color: #bd9b35;
     font-size: 20px;
     position: relative;
     bottom: -20px;
@@ -103,7 +103,7 @@ div a.activePage2{
 }
 
 .überschrift2{
-    color: #ffc71e;
+    color: #bd9b35;
     font-size: 20px;
     position: relative;
     bottom: -20px;
@@ -112,7 +112,7 @@ div a.activePage2{
 }
 
 .überschrift3{
-    color: #ffc71e;
+    color: #bd9b35;
     font-size: 20px;
     position: relative;
     bottom: -20px;
@@ -122,7 +122,7 @@ div a.activePage2{
 }
 
 .überschrift4{
-    color: #ffc71e;
+    color: #bd9b35;
     font-size: 20px;
     position: relative;
     bottom: -20px;
@@ -132,7 +132,7 @@ div a.activePage2{
 }
 
 .überschrift5{
-    color: #ffc71e;
+    color: #bd9b35;
     font-size: 20px;
     position: relative;
     bottom: -20px;
@@ -163,7 +163,7 @@ div a.activePage2{
 }
 
 .kontakt{
-    color: #ffc71e;
+    color: #bd9b35;
     font-size: 20px;
     position: relative;
     bottom: 550px;
@@ -175,7 +175,7 @@ div a.activePage2{
 }
 
 .Kontakt{
-    color: #ffc71e;
+    color: #bd9b35;
     font-weight: bolder;
     position: relative;
     right: 385px;
