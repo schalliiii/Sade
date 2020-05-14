@@ -177,9 +177,9 @@ div a.activePage2{
 .Kontakt{
     color: #bd9b35;
     font-weight: bolder;
-    position: relative;
+    position:relative;
     right: 385px;
-    margin-top: -500px;
+    margin-top: -1000px;
 }
 
 .formular{
