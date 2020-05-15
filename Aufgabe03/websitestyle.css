@@ -17,7 +17,7 @@ h1{
     background-color: rgb(121, 78, 23);
     padding: 5px 8px 5px 5px;
     position: fixed;
-    right: 0;
+    right: 25px;
     top: 0;
     border-radius: 10px 10px 10px 10px;
     z-index: 999;
