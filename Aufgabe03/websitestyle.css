@@ -8,13 +8,13 @@ h1{
     font-size: 150px;
     letter-spacing: -17px;
     position: relative;
-    bottom: 410px;
+    bottom: 200px;
 }
 
 
 .navi{
     display: inline-block;
-    background-color: rgb(121, 78, 23);
+    background-color: rgb(201, 104, 66);
     padding: 5px 8px 5px 5px;
     position: fixed;
     right: 25px;
@@ -23,29 +23,29 @@ h1{
     z-index: 999;
 }
 .navi1{
-    border-right: solid 1px rgb(219, 177, 59);
+    border-right: solid 1px rgb(105, 39, 39);
 }
 
 .navi2{
-    border-right: solid 1px rgb(219, 177, 59);
+    border-right: solid 1px rgb(105, 39, 39);
 }
 
 a:link, a:visited {
         text-decoration: none;
-        color: rgb(221, 194, 158);
+        color: rgb(236, 219, 200);
 }
  a:hover {
-    color: #bd8e5b;
+    color: #771212;
  }
 
  a.active{
-     color: #ca530f;
+     color: #000000;
      text-decoration: underline;
  }
 
 
 div a.activePage1{
-     color: #bd8e5b;
+     color: #000000;
      font-weight: bolder;
 }
 
@@ -56,8 +56,8 @@ div a.activePage2{
 
 .social{
     position: absolute;
-    top: 150px;
-    margin-left: 20%;
+    top: 310px;
+    margin-left: 40%;
     z-index: 9999;
 }
 
@@ -75,20 +75,20 @@ div a.activePage2{
     text-align: left;
     position: relative;
     bottom: 570px;
-    left: 100px;
+    left: -145px;
     text-align:left;
 }
 
 .text{
     margin: auto;
-    width: 15%;
+    width: 30%;
     border: 3px;
     padding: 10px;
     font-size: 10px;
-    text-align: left;
+    text-align:left;
     position: relative;
-    bottom: 625px;
-    left: 100px;
+    bottom: 720px;
+    left: 60px;
     text-align:left;
 }
 
@@ -171,7 +171,7 @@ div a.activePage2{
 }
 
 .activePage1{
-    border-right: solid 1px white;
+    border-right: solid 1px rgb(105, 39, 39);
 }
 
 .Kontakt{
@@ -219,7 +219,7 @@ div a.activePage2{
 }
 
 .fotoich{
-    margin-top: -500px;
+    margin-top: -200px;
 }
 
 main{
