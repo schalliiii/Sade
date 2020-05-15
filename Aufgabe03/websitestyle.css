@@ -221,3 +221,8 @@ div a.activePage2{
 .fotoich{
     margin-top: -500px;
 }
+
+main{
+    width: 800px;
+    margin: auto
+}
