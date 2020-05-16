@@ -106,67 +106,7 @@ div a.activePage2{
     text-align:left;
 }
 
-.überschrift1{
-    color: #bd9b35;
-    font-size: 20px;
-    position: relative;
-    bottom: -20px;
-    right: 360px;
-    
-}
 
-.überschrift2{
-    color: #bd9b35;
-    font-size: 20px;
-    position: relative;
-    bottom: -20px;
-    margin-left: -732px;
-    
-}
-
-.überschrift3{
-    color: #bd9b35;
-    font-size: 20px;
-    position: relative;
-    bottom: -20px;
-    margin-left: -740px;
-    margin-right: -22px;
-    
-}
-
-.überschrift4{
-    color: #bd9b35;
-    font-size: 20px;
-    position: relative;
-    bottom: -20px;
-    margin-left: -678px;
-    margin-right: -50px;
-    
-}
-
-.überschrift5{
-    color: #bd9b35;
-    font-size: 20px;
-    position: relative;
-    bottom: -20px;
-    margin-left: -718px;
-    margin-right: -60px;
-    
-}
-
-
-.foto{
-    color: #ffc71e;
-    font-size: 20px;
-    position: relative;
-    bottom: 480px;
-    right: 306px;
-}
-
-.foto1 {
-    position: relative;
-    bottom: 470px;
-}
 
 .circle{
     position: static;
@@ -249,5 +189,14 @@ margin-top: 150px;
 }
 
 .socialportfolio{
-margin-left: -560px;
+    position: absolute;
+    top: 290px;
+    margin-left: 30%;
+    z-index: 9999;
+
+}
+.fotos{
+    margin-top: 200px;
+    margin-left:10px;
+   
 }
