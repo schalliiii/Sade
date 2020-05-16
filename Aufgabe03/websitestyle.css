@@ -57,7 +57,7 @@ div a.activePage2{
 
 .social{
     position: absolute;
-    top: 280px;
+    top: 290px;
     margin-left: 30%;
     z-index: 9999;
 }
@@ -76,7 +76,7 @@ div a.activePage2{
     text-align: left;
     position: relative;
     bottom: 650px;
-    left: 145px;
+    left: 210px;
     text-align:left;
 }
 
@@ -100,9 +100,9 @@ div a.activePage2{
     padding: 10px;
     font-size: 13px;
     text-align:left;
-    position: relative;
-    bottom: 680px;
-    left: 60px;
+    position:relative;
+    bottom: 715px;
+    left: 35px;
     text-align:left;
 }
 
@@ -212,10 +212,10 @@ div a.activePage2{
     background: rgb(236, 212, 160);
     font-size: 9pt;
     color:#d88b17;
-    width: 200px;
-    padding: 5px 5px 5px 5px;
+    width: 220px;
+    padding: 5px 5px 5px 150px;
     margin-left: -150px;
-    text-align: left;
+    text-align:left;
 }
 
 .Datenschutz{
