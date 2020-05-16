@@ -190,11 +190,11 @@ div a.activePage2{
 .Kontakt{
     color: #d88b17;
     font-weight: bolder;
-    font-size:15pt
-    position:relative;
+    font-size:15pt;
+    position: relative;
     right:180px;
     margin-top: 240px;
-    margin-left: -600px;
+    margin-left: -240px;
 
 }
 
@@ -236,11 +236,18 @@ div a.activePage2{
 
 .fotoich{
     margin-top: 160px;
-    margin-left: -140px;
+    margin-left: 37px;
 }
 
 main{
     width: 800px;
     margin: auto
-    center 
+}
+.h3{
+    margin-left: -460px;
+margin-top: 150px;
+}
+
+.socialportfolio{
+margin-left: -560px;
 }
