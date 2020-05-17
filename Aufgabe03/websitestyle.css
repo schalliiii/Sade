@@ -93,6 +93,8 @@ div a.activePage2{
     bottom: 680px;
     left: 60px;
     text-align:left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:500;
 }
 
 .text1{
@@ -215,7 +217,20 @@ margin-top: 170px;
 .unterschrift1{
     color:rgb(206, 122, 66)
 }
+
 .textspruch{
-    color:#f7e5d3;
-    font-size:13pt;
+ margin: auto;
+ width: 30%;
+ border: 3px;
+ padding: 10px;
+ font-size: 14px;
+ text-align:left;
+ position: relative;
+ bottom: 680px;
+ left: 60px;
+ text-align:left;
+ color: #f7e5d3;
+ font-family: Arial, Helvetica, sans-serif;
+ font-weight:500;
 }
+
