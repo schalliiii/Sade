@@ -7,9 +7,10 @@ body{
 }
 h1{
     font-size: 150px;
-    letter-spacing: -17px;
+    letter-spacing: -15px;
     position: relative;
     bottom: 480px;
+    color: #f7e5d3;
 }
 
 
@@ -67,7 +68,7 @@ div a.activePage2{
 }
 
 .lorem {
-    letter-spacing: -4px;
+    letter-spacing: -3px;
     margin: auto;
     width: 30%;
     border: 3px;
@@ -78,6 +79,7 @@ div a.activePage2{
     bottom: 650px;
     left: 210px;
     text-align:left;
+    color: #f7e5d3;
 }
 
 .text{
@@ -85,7 +87,7 @@ div a.activePage2{
     width: 30%;
     border: 3px;
     padding: 10px;
-    font-size: 13px;
+    font-size: 14px;
     text-align:left;
     position: relative;
     bottom: 680px;
@@ -98,12 +100,15 @@ div a.activePage2{
     width: 30%;
     border: 3px;
     padding: 10px;
-    font-size: 13px;
+    font-size: 14px;
     text-align:left;
     position:relative;
     bottom: 715px;
     left: 35px;
     text-align:left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:500;
+
 }
 
 
@@ -155,7 +160,7 @@ div a.activePage2{
     width: 220px;
     padding: 5px 5px 5px 150px;
     margin-left: -150px;
-    text-align:left;
+    text-align: left;
 }
 
 .Datenschutz{
@@ -175,8 +180,8 @@ div a.activePage2{
 }
 
 .fotoich{
-    margin-top: 160px;
-    margin-left: 37px;
+    margin-top: 130px;
+    margin-left: 30px;
 }
 
 main{
@@ -184,8 +189,8 @@ main{
     margin: auto
 }
 .h3{
-    margin-left: -460px;
-margin-top: 150px;
+    margin-left: -15px;
+margin-top: 170px;
 }
 
 .socialportfolio{
@@ -195,8 +200,22 @@ margin-top: 150px;
     z-index: 9999;
 
 }
+.socialcontact{
+    position: absolute;
+    top: 290px;
+    margin-left:35%;
+    z-index: 9999;
+
+}
 .fotos{
-    margin-top: 200px;
+    margin-top: 10px;
     margin-left:10px;
    
+}
+.unterschrift1{
+    color:rgb(206, 122, 66)
+}
+.textspruch{
+    color:#f7e5d3;
+    font-size:13pt;
 }
