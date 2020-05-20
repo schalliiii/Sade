@@ -1,0 +1,15 @@
+.überschrift{
+    color:rgb(233, 216, 180);
+    font-size: 150px;
+    letter-spacing: -4px;
+    bottom:  500px;
+    position: relative;
+    
+}
+
+body{
+
+    font-family: 'Arial';
+    background: #bd8e5b;
+    text-align: center;
+}
