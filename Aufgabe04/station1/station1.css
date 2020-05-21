@@ -24,3 +24,24 @@ body{
     top: 0;
     border-radius: 10px 10px 10px 10px;
     z-index: 999;
+}
+
+.wrapper{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    top: 50% ;
+    -webkit-transfrom: translateY (-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY (-50%); position: absolute;
+}
+
+.pinguin{
+
+
+}
+
+.shell{
+
+    
+}
