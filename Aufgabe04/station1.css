@@ -31,17 +31,16 @@ body{
     width: 100%;
     text-align: center;
     top: 50% ;
-    -webkit-transfrom: translateY (-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY (-50%); position: absolute;
+    bottom:
+
 }
 
 .pinguin{
-
+position: relative;
 
 }
 
 .shell{
-
+position: relative;
     
 }
