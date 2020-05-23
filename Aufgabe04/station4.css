@@ -28,3 +28,45 @@
         margin-top: 100px;
         
     }
+    #headline{
+        display: inline-block;
+        position: absolute;
+        font-size: 15px;
+        font-weight: bold;
+        text-align: left;
+        margin-top: 140px;
+        margin-left: -120px;
+        color: white;
+        z-index: 9999;
+   }
+
+.eins{
+column-count: 3;
+width: 400px;
+column-gap: 20px ;
+border-spacing:70px ;
+border-collapse:separate ;
+position: absolute;
+margin-left: -180px;
+margin-top: 240px;
+display: inline-block;
+text-align: left;
+hyphens: auto;
+z-index: 9999;
+}
+    
+.zwei{
+column-count: 2;
+width: 400px;
+column-gap: 20px ;
+border-spacing:70px ;
+border-collapse: separate;
+position: absolute;
+margin-left: -180px;
+margin-top: 370px;
+display: inline-block;
+text-align: left;
+hyphens: auto;
+z-index: 9999;
+}
+ 
