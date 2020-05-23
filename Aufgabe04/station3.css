@@ -2,7 +2,6 @@
     body{
 
         font-family: 'Arial';
-        background: #bd8e5b;
         text-align: center;
         background-image: url("bg4.png");
     }
@@ -27,4 +26,37 @@
         margin-bottom: auto;
         margin-top: 100px;
         
-        }
+    }
+
+    #headline{
+        display: inline-block;
+        position: absolute;
+        font-size: 15pt;
+        font-weight: bold;
+        text-align: left;
+        margin-top: -400px;
+        margin-left: -270px;
+        color: white;
+
+    }
+    form{
+        display: inline-block;
+        position: absolute;
+        margin-left: -270px;
+        margin-top: -300px;
+        text-align: left;
+        color: white;
+    }
+#name{
+    width: 100px;
+}
+#nachricht{
+    padding: 0 200px 80px 0;
+}
+#textfeld{
+    width: 80px;
+}
+label, input{
+    display: inline-block;
+    margin-bottom: 5px;
+}
