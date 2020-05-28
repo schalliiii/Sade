@@ -1,3 +1,3 @@
 "use strict";
-console.log("Hallo Welt");
+console.log("");
 //# sourceMappingURL=typescript.js.map
