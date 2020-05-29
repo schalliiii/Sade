@@ -13,14 +13,12 @@ var afrikaw: number = (AFRIKA / WELT) * 100;
 var asienw: number = (ASIEN / WELT) * 100;
 var australienw: number = (AUSTRALIEN / WELT) * 100;
 
-
 var EUROPE: number = (4209.30 - 4965.70) / 4965.70 ;
 var NORTHAMERICA: number = (6035.60 - 6600.40) / 6600.40 ;
 var SOUTHAMERICA: number = (1261.50 - 1132.60) / 1132.60;
 var AFRICA: number = (1235.50 - 1.028) / 1.028 ;
 var ASIA: number = (16274.10 - 12954.70) / 12954.70;
 var AUSTRALIA: number =  (2100.50 - 1993.00) / 1993.00;
-
 
 var europe: number = 4209.30 - 4965.70 ;
 var northamerica: number = 6035.60 - 6600.40 ;
@@ -29,11 +27,12 @@ var africa: number = 1235.50 - 1.028 ;
 var asia: number = 16274.10 - 12954.70 ;
 var australia: number =  2100.50 - 1993.00 ;
 
-
+console.group("EUROPA");
 console.log("Die Emission von Europa ist: + EUROPA + kg CO2");
 console.log("Relativ zur Gesamtemission der Welt verursacht Europa damit + europaw + %");
 console.log("Für Europa hat sich 2018 im Vergleich zu 2008 die Emission um +EUROPE + % verändert");
 console.log("2018 im Vergleich zu 2008 sind das + europe + kg CO2");
+console.groupEnd();
 
 console.log("Die Emission von Nordamerika ist: + NORDAMERIKA + kg CO2");
 console.log("Relativ zur Gesamtemission der Welt verursacht Nordamerika damit + nordamerikaw + %");
