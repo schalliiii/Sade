@@ -28,10 +28,10 @@ var asia: number = 16274.10 - 12954.70 ;
 var australia: number =  2100.50 - 1993.00 ;
 
 console.group("EUROPA");
-console.log("Die Emission von Europa ist: + EUROPA + kg CO2");
-console.log("Relativ zur Gesamtemission der Welt verursacht Europa damit + europaw + %");
-console.log("Für Europa hat sich 2018 im Vergleich zu 2008 die Emission um +EUROPE + % verändert");
-console.log("2018 im Vergleich zu 2008 sind das + europe + kg CO2");
+console.log("Die Emission von Europa ist: +EUROPA+ kg CO2");
+console.log("Relativ zur Gesamtemission der Welt verursacht Europa damit +europaw+ %");
+console.log("Für Europa hat sich 2018 im Vergleich zu 2008 die Emission um +EUROPE+ % verändert");
+console.log("2018 im Vergleich zu 2008 sind das +europe+ kg CO2");
 console.groupEnd();
 
 console.group("NORDAMERIKA");
