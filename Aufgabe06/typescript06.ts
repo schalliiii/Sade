@@ -11,7 +11,7 @@ window.addEventListener('load', function() {
 
     function EuropeFunction() {
 
-        document.getElementsById("continent").innerHTML = "Europe";
+        document.getElementById("continent").innerHTML = "Europe";
         document.getElementById("wort1").innerHTML = "Europe";
         document.getElementById("Wert1").innerHTML = "4209.3 kg CO2";
         document.getElementById("Wert2").innerHTML = "16.85577672348352 %";
