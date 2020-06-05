@@ -3,7 +3,7 @@ window.addEventListener('load', function () {
     document.querySelector(".europe").addEventListener('click', EuropeFunction);
     document.querySelector(".northamerica").addEventListener('click', NorthamericaFunction);
     document.querySelector(".southamerica").addEventListener('click', SouthamericaFunction);
-    document.querySelector(".afrika").addEventListener('click', AfricaFunction);
+    document.querySelector(".africa").addEventListener('click', AfricaFunction);
     document.querySelector(".asia").addEventListener('click', AsiaFunction);
     document.querySelector(".australia").addEventListener('click', AustraliaFunction);
     function EuropeFunction() {
