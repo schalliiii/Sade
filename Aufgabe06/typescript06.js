@@ -9,6 +9,7 @@ function () { }
     document.getElementById("Wert2").innerHTML = "16.85577672348352 %";
     document.getElementById("Wert3").innerHTML = "-0.152324949151177 %";
     document.getElementById("Wert4").innerHTML = "-756.3999999999996 kg CO2";
+    document.querySelector(".chartWrapper .chart")?.setAttribute("style", "height:16.85577672348352% ");
 }
 document.querySelector(".northamerica").addEventListener("click", NorthamericaFunction);
 function () { }
