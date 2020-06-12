@@ -1,4 +1,3 @@
-"use strict";
 {
     "version";
     3, "file";
