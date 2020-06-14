@@ -5,7 +5,7 @@ function playSample(mp3: string) {
     allSounds.play();
 }
 
-window.addEventListener('load', function () {
+window.addEventListener("load", function () {
 
     document.querySelector("#b1").addEventListener("click", function () {
         playSample("A.mp3")
@@ -37,19 +37,19 @@ window.addEventListener('load', function () {
 
     // 7.2 Erklärung und Tipps von Jasmin Basler 
 
-    var drumbeat= ["kick.mp3", "snare.mp3", "hihat.mp3"];
-    var s = 1;
-    function play(x) {
-        var threesounds = new Audio(drumbeat[x]);
+    var drumbeat : string  []= ["kick.mp3", "snare.mp3", "hihat.mp3"];
+    var s : number = 1;
+    function play(here) {
+        var threesounds : HTMLAudioElement = new Audio(drumbeat[here]);
         threesounds.play();
     }
 
-    document.querySelector("#play").addEventListener('click', function () {
+    document.querySelector("#play").addEventListener("click", function () {
         setInterval(function () {
             play(s - 1);
             s = s;
             s = s + 1;
-        }, 350);
+        }, 400);
     });
 
 
