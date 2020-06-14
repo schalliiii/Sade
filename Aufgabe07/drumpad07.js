@@ -35,8 +35,8 @@ window.addEventListener('load', function () {
     var drumbeat = ["kick.mp3", "snare.mp3", "hihat.mp3"];
     var s = 1;
     function play(x) {
-        var sound = new Audio(drumbeat[x]);
-        sound.play();
+        var threesounds = new Audio(drumbeat[x]);
+        threesounds.play();
     }
     document.querySelector("#play").addEventListener('click', function () {
         setInterval(function () {
