@@ -1,5 +1,6 @@
 body{
     text-align: center;
+    background-color: #000000;
 }
 
 button {
@@ -7,6 +8,8 @@ button {
 background-color:#ac61e9;
 padding: 150px 150px;
 cursor:pointer;
+border-radius: 8px 8px 8px 8px;
+border: none;
 
 }
 button:hover {
@@ -18,19 +21,20 @@ button:hover {
 
 #play{
     
-    background-color:#86f8d2;
+    background-color:#bd4b00;
     cursor: pointer;
     
 }
 #play:hover {
     
-    background-color:#86cef8;
+    background-color:#331005;
 }
 
 #b1{
         position: absolute;
         top: 15px;
         left: 60px;
+        
 }
 #b2{
         position: absolute;

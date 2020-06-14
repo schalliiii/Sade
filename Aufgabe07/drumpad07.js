@@ -1,3 +1,4 @@
+// 7.1: Unterstützung und Tipps von Jasmin Basler
 function playSample(mp3) {
     var allSounds = new Audio(mp3);
     allSounds.play();
@@ -29,6 +30,20 @@ window.addEventListener('load', function () {
     });
     document.querySelector("#b9").addEventListener("click", function () {
         playSample("snare.mp3");
+    });
+    // 7.2 Erklärung und Tipps von Jasmin Basler 
+    var drumbeat = ["kick.mp3", "snare.mp3", "hihat.mp3"];
+    var s = 1;
+    function play(x) {
+        var sound = new Audio(drumbeat[x]);
+        sound.play();
+    }
+    document.querySelector("#play").addEventListener('click', function () {
+        setInterval(function () {
+            play(s - 1);
+            s = s;
+            s = s + 1;
+        }, 350);
     });
 });
 //# sourceMappingURL=drumpad07.js.map
