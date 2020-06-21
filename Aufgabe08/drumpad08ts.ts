@@ -1,7 +1,11 @@
 //Aufgabe 8 mit Tipps von Jasmin Basler gelöst
 window.addEventListener("load", function () {
-    
- //Drum Pad
+
+    function playSample(mp3: string) {
+        var allSounds: HTMLAudioElement = new Audio(mp3);
+        allSounds.play();
+    }
+    //Drum Pad
     document.querySelector("#b1").addEventListener("click", function () {
         playSample("A.mp3");
     });
@@ -36,7 +40,7 @@ window.addEventListener("load", function () {
     var threesounds = ["kick.mp3", "snare.mp3", "hihat.mp3"];
     var i = 0;
     var drumbeat;
-    function play3beats() {
+    function playthreebeats() {
         drumbeat = setInterval(function () {
             playSample(threesounds[i]);
             i++;
@@ -46,6 +50,42 @@ window.addEventListener("load", function () {
         }, 400);
     }
 
+    //Play Button + Stop Button
+    function playstop() {
+        var playstopbutton = document.querySelector("#play");
+        if (playstopbutton.getAttribute("class") == "fas fa-play") {
+            playstopbutton.setAttribute("class", "fas fa-pause");
+            playthreebeats();
+        }
+        else {
+            playstopbutton.setAttribute("class", "fas fa-play");
+            stopBeat();
+        }
+    }
+    function stopBeat() {
+        clearInterval(drumbeat);
+    }
+    //Beat aufnehmen
+    var recorder = false;
+    function recording() {
+        if (recorder) {
+            recorder = false;
+        }
+        else {
+            recorder = true;
+        }
+    }
+    function playSample(mp3) {
+        if (recorder) {
+            drumbeat.push(mp3);
+        }
+        var sound = new Audio(mp3);
+        sound.play();
+    }
+
+
+
+    
 });
 
 
