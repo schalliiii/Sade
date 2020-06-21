@@ -35,7 +35,7 @@ window.addEventListener("load", function () {
     var drumbeat = ["kick.mp3", "snare.mp3", "hihat.mp3"];
     var s = 1;
     function play(here) {
-        var threesounds = new Audio(drumbeat[here]);
+        var threesounds = new Audio(drumbeat[s]);
         threesounds.play();
     }
     document.querySelector("#play").addEventListener("click", function () {
@@ -43,7 +43,26 @@ window.addEventListener("load", function () {
             play(s - 1);
             s = s;
             s = s + 1;
+            if (s > 2) {
+                s = 0;
+            }
         }, 400);
     });
+    // Aufgabe 8  Input und Tipps von Hannah im Praktikum
+    document.querySelector("#play").addEventListener("click", playStop);
+    document.querySelector("#delete").addEventListener("click", deleteBeat);
+    document.querySelector("#mic").addEventListener("click", createBeat);
+    var playButton = document.querySelector("#play");
+    var intervallloop;
+    if (playButton.classList.contains("fa-play")) {
+        playButton.classList.remove("fa-play");
+        playButton.classList.add("fa-stop");
+        intervallloop = setInterval(threesounds, 400);
+    }
+    else {
+        playButton.classList.remove("fa-stop");
+        playButton.classList.add("fa-stop");
+        clearInterval(intervallloop);
+    }
 });
-//# sourceMappingURL=drumpad07.js.map
+//# sourceMappingURL=drumpad08tsjasmin.js.map

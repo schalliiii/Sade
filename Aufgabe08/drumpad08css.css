@@ -1,0 +1,112 @@
+body{
+    text-align: center;
+    background-color: #000000;
+}
+
+button {
+
+background-color:#ac61e9;
+padding: 150px 150px;
+cursor:pointer;
+border-radius: 8px 8px 8px 8px;
+border: none;
+
+}
+button:hover {
+
+    background-color:#ebe189;
+}
+
+
+
+#b1{
+        position: absolute;
+        top: 15px;
+        left: 60px;
+        
+}
+#b2{
+        position: absolute;
+        top: 15px;
+        left: 370px;
+}
+#b3{
+        position: absolute;
+        top: 15px;
+        left: 680px;
+}
+#b4{
+        position: absolute;
+        top: 325px;
+        left: 60px;
+}
+#b5{
+        position: absolute;
+        top: 325px;
+        left: 370px;
+    
+}
+#b6{
+        position: absolute;
+        top: 325px;
+        left: 680px;
+}
+#b7{
+        position: absolute;
+        top: 635px;
+        left: 60px;
+}
+#b8{
+        position: absolute;
+        top: 635px;
+        left: 370px;
+}
+#b9{
+        position: absolute;
+        top: 635px;
+        left: 680px;
+}
+
+
+
+#play{ 
+    color: #ffffff;    
+    position: absolute;
+    top: 980px;
+    left: 430px;
+    font-size: 200px;
+    cursor: pointer;
+}
+
+
+#play:hover {
+        
+        color:#ebe189;
+}
+
+#mic:hover {
+        
+        color:#ebe189;
+}
+
+#delete:hover {
+        
+        color:#ebe189;
+}
+
+.fa-microphone{ 
+        color: #ffffff; 
+        position: absolute;
+        top: 980px;
+        left: 750px; 
+        font-size:200px; 
+        cursor: pointer;
+}
+.fa-trash-alt{ 
+        color: #ffffff;   
+        position: absolute;
+        top: 980px;
+        left: 130px;
+        font-size:200px;
+        cursor: pointer;
+}
