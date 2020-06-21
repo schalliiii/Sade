@@ -34,7 +34,7 @@ window.addEventListener("load", function () {
         playSample("snare.mp3");
     });
 
-    //Drum Machine 
+    //Drum Machine, 3 Beats abspielen
     document.querySelector("#play").addEventListener("click", playstop);
     document.querySelector("#mic").addEventListener("click", recording);
     var threesounds = ["kick.mp3", "snare.mp3", "hihat.mp3"];
@@ -50,7 +50,7 @@ window.addEventListener("load", function () {
         }, 400);
     }
 
-    //Play Button + Stop Button
+    //Play Button durch Stop Button ersetzen 
     function playstop() {
         var playstopbutton = document.querySelector("#play");
         if (playstopbutton.getAttribute("class") == "fas fa-play") {
@@ -65,7 +65,7 @@ window.addEventListener("load", function () {
     function stopBeat() {
         clearInterval(drumbeat);
     }
-    //Beat aufnehmen
+    //Den Beat aufnehmen
     var recorder = false;
     function recording() {
         if (recorder) {
@@ -82,10 +82,13 @@ window.addEventListener("load", function () {
         var sound = new Audio(mp3);
         sound.play();
     }
+// Den Beat löschen
+document.getElementById("delete").addEventListener('click', function () {
+    drumbeat = [];
+});
 
 
 
-    
 });
 
 
