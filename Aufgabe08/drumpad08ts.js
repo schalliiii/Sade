@@ -1,10 +1,6 @@
 //Aufgabe 8 mit Erklärung und Unterstützung von Jasmin Basler gelöst
 window.addEventListener("load", function () {
-    function playSample(mp3) {
-        var allSounds = new Audio(mp3);
-        allSounds.play();
-    }
-    //Drum Pad
+    // Mein DrumPad
     document.querySelector("#b1").addEventListener("click", function () {
         playSample("A.mp3");
     });
@@ -33,7 +29,7 @@ window.addEventListener("load", function () {
         playSample("snare.mp3");
     });
     //Drum Machine, 3 Beats abspielen
-    document.querySelector("#play").addEventListener("click", playstop);
+    document.querySelector("#play").addEventListener("click", playbreak);
     document.querySelector("#mic").addEventListener("click", recording);
     var threesounds = ["kick.mp3", "snare.mp3", "hihat.mp3"];
     var i = 0;
@@ -48,7 +44,7 @@ window.addEventListener("load", function () {
         }, 400);
     }
     //Play Button durch Stop Button ersetzen 
-    function playstop() {
+    function playbreak() {
         var playstopbutton = document.querySelector("#play");
         if (playstopbutton.getAttribute("class") == "fas fa-play") {
             playstopbutton.setAttribute("class", "fas fa-pause");
@@ -56,10 +52,10 @@ window.addEventListener("load", function () {
         }
         else {
             playstopbutton.setAttribute("class", "fas fa-play");
-            stopBeat();
+            stoptheBeat();
         }
     }
-    function stopBeat() {
+    function stoptheBeat() {
         clearInterval(drumbeat);
     }
     //Den Beat aufnehmen
@@ -76,11 +72,11 @@ window.addEventListener("load", function () {
         if (recorder) {
             drumbeat.push(mp3);
         }
-        var sound = new Audio(mp3);
+        const sound = new Audio(mp3);
         sound.play();
     }
     // Den Beat löschen
-    document.getElementById("delete").addEventListener("click", function () {
+    document.getElementById("#delete").addEventListener("click", function () {
         drumbeat = [];
     });
 });

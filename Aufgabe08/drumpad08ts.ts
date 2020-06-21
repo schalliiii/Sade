@@ -1,11 +1,8 @@
 //Aufgabe 8 mit Erklärung und Unterstützung von Jasmin Basler gelöst
 window.addEventListener("load", function () {
 
-    function playSample(mp3: string) {
-        var allSounds: HTMLAudioElement = new Audio(mp3);
-        allSounds.play();
-    }
-    //Drum Pad
+   
+    // Mein DrumPad
     document.querySelector("#b1").addEventListener("click", function () {
         playSample("A.mp3");
     });
@@ -35,12 +32,12 @@ window.addEventListener("load", function () {
     });
 
     //Drum Machine, 3 Beats abspielen
-    document.querySelector("#play").addEventListener("click", playstop);
+    document.querySelector("#play").addEventListener("click", playbreak);
     document.querySelector("#mic").addEventListener("click", recording);
-    var threesounds = ["kick.mp3", "snare.mp3", "hihat.mp3"];
-    var i = 0;
-    var drumbeat;
-    function playthreebeats() {
+    var threesounds: void = ["kick.mp3", "snare.mp3", "hihat.mp3"];
+    var i: number = 0;
+    var drumbeat: void;
+    function playthreebeats(): void {
         drumbeat = setInterval(function () {
             playSample(threesounds[i]);
             i++;
@@ -51,23 +48,23 @@ window.addEventListener("load", function () {
     }
 
     //Play Button durch Stop Button ersetzen 
-    function playstop() {
-        var playstopbutton = document.querySelector("#play");
+    function playbreak(): void {
+        var playstopbutton: any = document.querySelector("#play");
         if (playstopbutton.getAttribute("class") == "fas fa-play") {
             playstopbutton.setAttribute("class", "fas fa-pause");
             playthreebeats();
         }
         else {
             playstopbutton.setAttribute("class", "fas fa-play");
-            stopBeat();
+            stoptheBeat();
         }
     }
-    function stopBeat() {
+    function stoptheBeat(): void {
         clearInterval(drumbeat);
     }
     //Den Beat aufnehmen
-    var recorder = false;
-    function recording() {
+    var recorder: boolean = false;
+    function recording(): void {
         if (recorder) {
             recorder = false;
         }
@@ -75,15 +72,16 @@ window.addEventListener("load", function () {
             recorder = true;
         }
     }
-    function playSample(mp3) {
+    function playSample(mp3: string): void {
         if (recorder) {
             drumbeat.push(mp3);
         }
-        var sound = new Audio(mp3);
+        const sound: HTMLAudioElement = new Audio(mp3);
         sound.play();
+
     }
     // Den Beat löschen
-    document.getElementById("delete").addEventListener("click", function () {
+    document.getElementById("#delete").addEventListener("click", function () {
         drumbeat = [];
     });
 
