@@ -76,7 +76,7 @@ window.addEventListener("load", function () {
         sound.play();
     }
     // Den Beat löschen
-    document.getElementById("#delete").addEventListener("click", function () {
+    document.getElementById("delete").addEventListener("click", function () {
         drumbeat = [];
     });
 });

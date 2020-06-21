@@ -34,9 +34,9 @@ window.addEventListener("load", function () {
     //Drum Machine, 3 Beats abspielen
     document.querySelector("#play").addEventListener("click", playbreak);
     document.querySelector("#mic").addEventListener("click", recording);
-    var threesounds: string = ["kick.mp3", "snare.mp3", "hihat.mp3"];
-    var i: number = 0;
-    var drumbeat: string;
+    var threesounds: string [] = ["kick.mp3", "snare.mp3", "hihat.mp3"];
+    var i: number[] = 0;
+    var drumbeat: string [];
     function playthreebeats(): void {
         drumbeat = setInterval(function () {
             playSample(threesounds[i]);
@@ -81,7 +81,7 @@ window.addEventListener("load", function () {
 
     }
     // Den Beat löschen
-    document.getElementById("#delete").addEventListener("click", function () {
+    document.getElementById("delete").addEventListener("click", function () {
         drumbeat = [];
     });
 
