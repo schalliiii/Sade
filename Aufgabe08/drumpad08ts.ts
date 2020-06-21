@@ -1,7 +1,7 @@
 //Aufgabe 8 mit Erklärung und Unterstützung von Jasmin Basler gelöst
 window.addEventListener("load", function () {
 
-   
+
     // Mein DrumPad
     document.querySelector("#b1").addEventListener("click", function () {
         playSample("A.mp3");
@@ -30,13 +30,13 @@ window.addEventListener("load", function () {
     document.querySelector("#b9").addEventListener("click", function () {
         playSample("snare.mp3");
     });
-
-    //Drum Machine, 3 Beats abspielen
     document.querySelector("#play").addEventListener("click", playbreak);
     document.querySelector("#mic").addEventListener("click", recording);
-    var threesounds: string [] = ["kick.mp3", "snare.mp3", "hihat.mp3"];
-    var i: number[] = 0;
-    var drumbeat: string [];
+    //Drum Machine, 3 Beats abspielen
+   
+    var threesounds: string[] = ["kick.mp3", "snare.mp3", "hihat.mp3"];
+    var i: number = 0;
+    var drumbeat: number;
     function playthreebeats(): void {
         drumbeat = setInterval(function () {
             playSample(threesounds[i]);
@@ -49,17 +49,17 @@ window.addEventListener("load", function () {
 
     //Play Button durch Stop Button ersetzen 
     function playbreak(): void {
-        var playstopbutton: void = document.querySelector("#play");
+        var playstopbutton = document.querySelector("#play");
         if (playstopbutton.getAttribute("class") == "fas fa-play") {
             playstopbutton.setAttribute("class", "fas fa-pause");
             playthreebeats();
         }
         else {
             playstopbutton.setAttribute("class", "fas fa-play");
-            stoptheBeat();
+            stopthebeat();
         }
     }
-    function stoptheBeat(): void {
+    function stopthebeat(): void {
         clearInterval(drumbeat);
     }
     //Den Beat aufnehmen

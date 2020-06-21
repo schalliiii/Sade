@@ -28,9 +28,9 @@ window.addEventListener("load", function () {
     document.querySelector("#b9").addEventListener("click", function () {
         playSample("snare.mp3");
     });
-    //Drum Machine, 3 Beats abspielen
     document.querySelector("#play").addEventListener("click", playbreak);
     document.querySelector("#mic").addEventListener("click", recording);
+    //Drum Machine, 3 Beats abspielen
     var threesounds = ["kick.mp3", "snare.mp3", "hihat.mp3"];
     var i = 0;
     var drumbeat;
@@ -52,10 +52,10 @@ window.addEventListener("load", function () {
         }
         else {
             playstopbutton.setAttribute("class", "fas fa-play");
-            stoptheBeat();
+            stopthebeat();
         }
     }
-    function stoptheBeat() {
+    function stopthebeat() {
         clearInterval(drumbeat);
     }
     //Den Beat aufnehmen
