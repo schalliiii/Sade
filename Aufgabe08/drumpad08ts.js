@@ -1,4 +1,4 @@
-//Aufgabe 8 mit Tipps von Jasmin Basler gelöst
+//Aufgabe 8 mit Erklärung und Unterstützung von Jasmin Basler gelöst
 window.addEventListener("load", function () {
     function playSample(mp3) {
         var allSounds = new Audio(mp3);
@@ -80,7 +80,7 @@ window.addEventListener("load", function () {
         sound.play();
     }
     // Den Beat löschen
-    document.getElementById("delete").addEventListener('click', function () {
+    document.getElementById("delete").addEventListener("click", function () {
         drumbeat = [];
     });
 });
