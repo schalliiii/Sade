@@ -34,14 +34,14 @@ window.addEventListener("load", function () {
     document.querySelector("#mic").addEventListener("click", recording);
     //Drum Machine, 3 Beats abspielen
 
-    var threesounds: string[] = ["kick.mp3", "snare.mp3", "hihat.mp3"];
+    var drumsounds: string[] = ["kick.mp3", "snare.mp3", "hihat.mp3"];
     var i: number = 0;
     var drumbeat: number;
     function playBeats(): void {
         drumbeat = setInterval(function () {
-            playSample(threesounds[i]);
+            playSample(drumsounds[i]);
             i++;
-            if (i >= threesounds.length) {
+            if (i >= drumsounds.length) {
                 i = 0;
             }
         }, 400);
@@ -74,7 +74,7 @@ window.addEventListener("load", function () {
     }
     function playSample(mp3: string): void {
         if (recorder) {
-            threesounds.push(mp3);
+            drumsounds.push(mp3);
         }
         const sound: HTMLAudioElement = new Audio(mp3);
         sound.play();
@@ -82,7 +82,7 @@ window.addEventListener("load", function () {
     }
     // Den Beat löschen
     document.getElementById("delete").addEventListener("click", function () {
-        threesounds = [];
+        drumsounds = [];
     });
 
 

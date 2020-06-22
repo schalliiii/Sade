@@ -31,14 +31,14 @@ window.addEventListener("load", function () {
     document.querySelector("#play").addEventListener("click", playbreak);
     document.querySelector("#mic").addEventListener("click", recording);
     //Drum Machine, 3 Beats abspielen
-    var threesounds = ["kick.mp3", "snare.mp3", "hihat.mp3"];
+    var drumsounds = ["kick.mp3", "snare.mp3", "hihat.mp3"];
     var i = 0;
     var drumbeat;
     function playBeats() {
         drumbeat = setInterval(function () {
-            playSample(threesounds[i]);
+            playSample(drumsounds[i]);
             i++;
-            if (i >= threesounds.length) {
+            if (i >= drumsounds.length) {
                 i = 0;
             }
         }, 400);
@@ -70,14 +70,14 @@ window.addEventListener("load", function () {
     }
     function playSample(mp3) {
         if (recorder) {
-            threesounds.push(mp3);
+            drumsounds.push(mp3);
         }
         var sound = new Audio(mp3);
         sound.play();
     }
     // Den Beat löschen
     document.getElementById("delete").addEventListener("click", function () {
-        threesounds = [];
+        drumsounds = [];
     });
 });
 //# sourceMappingURL=drumpad08ts.js.map
