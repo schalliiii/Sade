@@ -72,7 +72,7 @@ window.addEventListener("load", function () {
         if (recorder) {
             drumbeat.push(mp3);
         }
-        const sound = new Audio(mp3);
+        var sound = new Audio(mp3);
         sound.play();
     }
     // Den Beat löschen
