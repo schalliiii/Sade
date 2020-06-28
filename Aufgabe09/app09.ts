@@ -30,6 +30,17 @@ window.addEventListener("load", function () {
         eingabe.value = "";
         console.log(mytodoList);
     });
+
+
+    //Löscht die erledigten Punkte
+    var löschen = document.getElementsByClassName("far fa-trash-alt");
+    var i;
+    for (i = 0; i < löschen.length; i++) {
+        löschen[i].onclick = function () {
+            var br = this.parentElement;
+            br.style.display = "none";
+        };
+    }
 });
 
 
