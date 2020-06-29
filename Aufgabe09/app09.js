@@ -25,10 +25,10 @@ window.addEventListener("load", function () {
         console.log(mytodoList);
     });
     //Löscht die erledigten Punkte
-    var closetodo = document.getElementsByClassName("fas fa-trash-alt");
+    var closethetodo = document.getElementsByClassName("fas fa-trash-alt");
     var i;
-    for (i = 0; i < closetodo.length; i++) {
-        closetodo[i].onclick = function () {
+    for (i = 0; i < closethetodo.length; i++) {
+        closethetodo[i].onclick = function () {
             var div = this.parentElement;
             div.style.display = "none";
             count--;
