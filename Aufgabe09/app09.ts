@@ -17,7 +17,7 @@ window.addEventListener("load", function () {
         intotal.innerHTML = mytodoList.length;
     }
 
-
+    
     var zweiteliste = document.querySelector(".addtolist");
     drawList();
     // Mit klick auf add-button1 wird ein neues Element hinzugefügt
@@ -33,17 +33,18 @@ window.addEventListener("load", function () {
 
 
     //Löscht die erledigten Punkte
-    var löschen = document.getElementsByClassName("far fa-trash-alt");
+    
+
+    var closetodo = document.getElementsByClassName("fas fa-trash-alt");
     var i;
-    for (i = 0; i < löschen.length; i++) {
-        löschen[i].onclick = function () {
-            var br = this.parentElement;
-            br.style.display = "none";
+    for (i = 0; i < closetodo.length; i++) {
+        closetodo[i].onclick = function () {
+            var div = this.parentElement;
+            div.style.display = "none";
+            count--;
+            document.getElementById("#Span").innerHTML = String(count);
         };
-    }
 });
-
-
 
 
 
