@@ -143,7 +143,7 @@ namespace aufgabe10 {
         }
         // counterDoneDOMElement.innerHTML = todos.length + "in done";
         counterDoneDOMElement.innerHTML = counterChecked + "in done";
-        counterDoneDOMElement.innerHTML = counterOpen + "in open";
+        counterOpenDOMElement.innerHTML = counterOpen + "in open";
     }
     /**
      * Ein neues ToDo wird folgendermaßen erstellt:
