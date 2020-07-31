@@ -1,0 +1,148 @@
+.button{
+    width: 100px;
+    height: 100px;
+    background-color: blanchedalmond;
+}
+
+#start{
+    margin-top: 10px;
+    text-align: center;
+}
+
+#soundbuttons, #levelbuttons{
+    text-align: center;
+}
+
+.text{
+    text-align: center;
+}
+
+#checkbox{
+    text-align: center;
+}
+
+#turn {
+    text-align: center;
+    background: #330000;
+    color: red;
+    font-family: courier;
+    font-size: 20px;
+    height: 30px;
+    width: 50px;
+    margin-left: -25px;
+    margin-top: 50px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 30px;
+    position: relative;
+    left: 50%;
+  }
+
+  #count{
+      text-align: center;
+  }
+  .highlight{
+      background-color: red;
+  }
+
+  .toggle{
+      margin-top: 10px;
+  }
+
+  .white{
+      color: white;
+  }
+
+  body{
+      background-color: black;
+  }
+
+
+
+  meine CSS:
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(5, 5, 5);
+    text-align: center;
+}
+
+#button1{
+    font-size: 150pt;
+    position: absolute;
+    top: 200px;
+    left: 250px;
+    color:#d1b3e9;
+    cursor:pointer;
+  
+    
+}
+#button2{
+    font-size: 150pt;
+    position: absolute;
+    top: 200px;
+    left: 455px;
+    color:#91d191;
+    cursor:pointer;
+
+}
+#button3{
+    font-size: 150pt;
+    position: absolute;
+    top: 200px;
+    left: 660px;
+    color:#e3e66b;
+    cursor:pointer;
+    
+}
+#button4{
+    font-size: 150pt;
+    position: absolute;
+    top: 200px;
+    left: 865px;
+    color:#b63a32;
+    cursor:pointer;
+
+}
+#button5{
+    font-size: 150pt;
+    position: absolute;
+    top: 200px;
+    left: 1070px;
+    color:#84e8fa;
+    cursor:pointer;
+   
+}
+body #button1:hover, #button2:hover, #button3:hover, #button4:hover, #button5:hover {
+    
+    opacity: 0.5;
+}
+
+#severity1 {
+    color:rgb(241, 231, 216);
+} 
+
+#severity2{
+    color:rgb(241, 231, 216);
+} 
+
+#severity3{
+    color:rgb(241, 231, 216);
+} 
+
+#severity4{
+    color:rgb(241, 231, 216);
+} 
+
+img {
+    height: 50px;
+    width: 50px;
+    top: 100px;
+}
+img:hover {
+    opacity: 0.6;
+}
+
+footer{
+    color:rgb(241, 231, 216)
+}
